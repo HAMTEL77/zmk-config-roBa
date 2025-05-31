@@ -116,7 +116,7 @@
         SYMBOLS {
             bindings = <
 &kp SLASH     &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp MINUS                      &kp LS(EQUAL)  &kp LS(N8)    &kp LS(N9)    &kp LS(LBKT)  &kp LBKT
-&kp ASTERISK  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS   &trans      &trans  &kp EQUAL      &kp RBKT      &kp NUHS      &kp SEMI      &kp SQT
+&kp LS(SQT)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(SEMI)   &trans      &trans  &kp EQUAL      &kp RBKT      &kp NUHS      &kp SEMI      &kp SQT
 &trans        &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans     &trans      &trans  &kp LS(INT1)   &kp LS(RBKT)  &kp LS(NUHS)  &kp SLASH     &kp INT1
 &trans        &trans      &trans      &trans      &trans     &trans      &trans  &trans                                                   &kp LS(INT3)
             >;
@@ -125,7 +125,7 @@
         NUM {
             bindings = <
 &kp SLASH          &kp N7  &kp N8  &kp N9  &kp MINUS                          &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&kp ASTERISK       &kp N4  &kp N5  &kp N6  &kp PLUS    &trans         &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&kp LS(SQT)       &kp N4  &kp N5  &kp N6  &kp LS(SEMI)    &trans         &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
 &mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp EQUAL      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
 &trans             &kp N0  &trans  &trans  &trans      &trans         &trans  &trans                          &trans
             >;
