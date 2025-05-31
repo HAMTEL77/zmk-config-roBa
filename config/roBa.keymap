@@ -107,8 +107,8 @@
         default_layer {
             bindings = <
 &lt_to_layer_0 6 Q  &kp W         &kp E         &kp R                  &kp T                                                               &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A               &kp S         &kp D         &kp F                  &kp G        &kp ESC                    &kp ESC                     &kp H        &kp J  &kp K      &kp L    &kp RET
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                  &kp B        &kp TAB                    &kp TAB                     &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT MINUS
+&kp A               &kp S         &kp D         &kp F                  &kp G        &kp ESC                    &kp ESC                     &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                  &kp B        &kp TAB                    &kp TAB                     &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT5  &lt 2 SPACE  &lt_to_layer_0 3 INT4      &lt_to_layer_0 3 BACKSPACE  &lt 2 ENTER                             &kp ESCAPE
             >;
         };
@@ -124,10 +124,10 @@
 
         NUM {
             bindings = <
-&kp SLASH          &kp N7  &kp N8  &kp N9  &kp MINUS                                        &trans  &kp F7  &kp F8  &kp F9  &kp F10
-&kp ASTERISK       &kp N4  &kp N5  &kp N6  &kp PLUS    &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp EQUAL                    &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
-&trans             &kp N0  &trans  &trans  &trans      &trans                       &trans  &trans                          &trans
+&kp SLASH          &kp N7  &kp N8  &kp N9  &kp MINUS                          &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&kp ASTERISK       &kp N4  &kp N5  &kp N6  &kp PLUS    &trans         &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp EQUAL      &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
+&trans             &kp N0  &trans  &trans  &trans      &trans         &trans  &trans                          &trans
             >;
         };
 
