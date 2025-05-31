@@ -115,10 +115,10 @@
 
         SYMBOLS {
             bindings = <
-&kp SLASH     &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp MINUS                      &kp LS(EQUAL)  &kp LS(N8)     &kp LS(N9)      &kp LS(LBKT)  &kp LBKT
-&kp ASTERISK  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS   &trans      &trans  &kp EQUAL      &kp RBKT       &kp NUHS        &kp SEMI      &kp SQT
-&trans        &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans     &trans      &trans  &kp LS(INT1)   &kp LS(RBKT)   &kp LS(NUHS)  &kp SLASH     &kp INT1
-&trans        &trans      &trans      &trans      &trans     &trans      &trans  &trans                                                     &kp LS(INT3)
+&kp SLASH     &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp MINUS                      &kp LS(EQUAL)  &kp LS(N8)    &kp LS(N9)    &kp LS(LBKT)  &kp LBKT
+&kp ASTERISK  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp PLUS   &trans      &trans  &kp EQUAL      &kp RBKT      &kp NUHS      &kp SEMI      &kp SQT
+&trans        &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans     &trans      &trans  &kp LS(INT1)   &kp LS(RBKT)  &kp LS(NUHS)  &kp SLASH     &kp INT1
+&trans        &trans      &trans      &trans      &trans     &trans      &trans  &trans                                                   &kp LS(INT3)
             >;
         };
 
