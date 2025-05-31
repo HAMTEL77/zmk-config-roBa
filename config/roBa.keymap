@@ -115,25 +115,25 @@
 
         SYMBOLS {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans
-&trans  &kp JP_EXCL  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &trans
+&trans  &trans      &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(N1)  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp SLASH          &kp N7  &kp N8  &kp N9  &kp MINUS                                                   &trans            &kp F7  &kp F8  &kp F9  &kp F10
-&kp ASTERISK       &kp N4  &kp N5  &kp N6  &kp PLUS      &kp LC(LA(KP_NUMBER_0))      &trans          &trans            &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                    &trans          &trans            &kp F1  &kp F2  &kp F3  &kp F12
-&trans             &kp N0  &trans  &trans  &trans        &trans                       &trans          &trans                                    &trans
+&kp SLASH          &kp N7  &kp N8  &kp N9  &kp MINUS                                        &trans  &kp F7  &kp F8  &kp F9  &kp F10
+&kp ASTERISK       &kp N4  &kp N5  &kp N6  &kp PLUS    &kp LC(LA(KP_NUMBER_0))      &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT N0  &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp EQUAL                    &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12
+&trans             &kp N0  &trans  &trans  &trans      &trans                       &trans  &trans                          &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans                       &trans    &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans 
+&kp ESCAPE      &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans                       &trans    &kp LC(LS(TAB))     &kp UP_ARROW    &kp LC(TAB)          &trans
 &kp HOME        &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END  &trans      &trans  &kp HOME  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp END
 &kp LEFT_SHIFT  &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &trans   &trans      &trans  &trans    &kp LG(LEFT_ARROW)  &trans          &kp LG(RIGHT_ARROW)  &trans
 &trans          &trans              &trans          &trans               &trans   &trans      &trans  &trans                                                             &trans
@@ -144,10 +144,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans    &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
